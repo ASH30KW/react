@@ -9,6 +9,7 @@ function App(){
   const minValue = 5;
   //return <h1>{new Date().toLocaleDateString()}</h1>;
   // return <input type={inputType} min={minValue}></input>
-  return <textarea autoFocus={true}/>
+  // return <textarea autoFocus={true}/>
+  return <input maxLength={5}></input>
 }
 root.render(<App/>)
