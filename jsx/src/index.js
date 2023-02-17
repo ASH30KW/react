@@ -8,11 +8,9 @@ const el = document.getElementById('root')
 const root = ReactDom.createRoot(el)
 
 function App(){
-  let message = 'Bye there!'
-  if(Math.random()>0.5){
-    message = 'Hello there'
-  }
-  return <h1>{message}</h1>;
+  const data = new Date();
+  const time = data.toLocaleDateString()
+  return <h1>{time}</h1>;
 }
 
 root.render(<App/>)
