@@ -8,9 +8,11 @@ const el = document.getElementById('root')
 const root = ReactDom.createRoot(el)
 
 function App(){
-  const data = new Date();
-  const time = data.toLocaleDateString()
-  return <h1>{time}</h1>;
+  const name = 'Jinxin Ai'
+  const inputType = "number"
+  const minValue = 5;
+  //return <h1>{new Date().toLocaleDateString()}</h1>;
+  return <input type={inputType} min={minValue}></input>
 }
 
 root.render(<App/>)
