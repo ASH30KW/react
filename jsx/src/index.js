@@ -10,6 +10,7 @@ function App(){
   //return <h1>{new Date().toLocaleDateString()}</h1>;
   // return <input type={inputType} min={minValue}></input>
   // return <textarea autoFocus={true}/>
-  return <input maxLength={5}></input>
+  // return <input maxLength={5}></input>
+  return <input spellCheck></input>
 }
 root.render(<App/>)
