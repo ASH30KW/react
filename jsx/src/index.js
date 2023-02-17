@@ -11,6 +11,7 @@ function App(){
   // return <input type={inputType} min={minValue}></input>
   // return <textarea autoFocus={true}/>
   // return <input maxLength={5}></input>
-  return <input spellCheck></input>
+  // return <input spellCheck={false}></input>
+  return <input style={{border: '1px solid blue'}}></input>
 }
 root.render(<App/>)
